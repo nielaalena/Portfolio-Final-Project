@@ -1,0 +1,244 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #E195AB, #3a4ef0;;
+}
+
+
+header {
+    background: linear-gradient(to right, #E195AB, #3a4ef0);
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; 
+    padding: 10px 20px;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    color: #E195AB;
+    background-color: white;
+    z-index: 1000;
+}
+
+
+.navbar .left {
+    font-size: 20px;
+    font-weight: 600;
+    color: white; 
+
+}
+.navbar .right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.navbar .right a:hover {
+    color: #ccc; 
+
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:#3a4ef0;
+    font-weight: 1000;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #E195AB, #3a4ef0;
+}
+
+p.anica {
+    text-align: justify;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: white;
+    color:  #8B5DFF;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: rgba(FF,FF,FF,0.7);
+    box-shadow: 4px 4px 10px rgb(8,16,85);
+}
+.hero .btn:active {
+    opacity: 0.7;
+}
+
+
+/* Section Styles */
+.section {
+    background: #CBDCEB;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #8B5DFF;
+}
+
+.section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color:  #3a1a89;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Projects Section */
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    margin: 15px;
+}
+
+.project-card p {
+    margin: 20px 30px 30px;
+}
+
+.project-card .btn {
+    display: block;
+    margin: 10px 15px 15px;
+    padding: 10px;
+    background: linear-gradient(to right, #E195AB, #3a4ef0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.project-card .btn:hover {
+    margin: 60px 75px 75px;
+    background: #fcfcff;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #E195AB, #3a4ef0);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-item {
+    background: linear-gradient(to right, #E195AB, #3a4ef0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
